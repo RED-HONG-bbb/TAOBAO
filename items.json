@@ -1,0 +1,35 @@
+{
+    "edc3-4a70-8938": {
+        "fields": {
+            "1137-405b-a515": {
+                "id": "1137-405b-a515", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "68de-4a04-8181": {
+                "id": "68de-4a04-8181", 
+                "name": "price", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "1e4d-4391-878a": {
+                "id": "1e4d-4391-878a", 
+                "name": "intro", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "5454-4626-a4da": {
+                "id": "5454-4626-a4da", 
+                "name": "picture", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }
+        }, 
+        "name": "G K GBGB -"
+    }
+}

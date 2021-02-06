@@ -1,0 +1,132 @@
+{
+    "extractors": {},
+    "id": "e531-4b6e-a598",
+    "name": "Product",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "6c6e-4699-a7b9",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "edc3-4a70-8938",
+                    "selector": ".cat-1-9987",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".sku-name"
+                    ],
+                    "container_id": "6c6e-4699-a7b9",
+                    "data": {
+                        "1982-40c2-9a6a": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "1137-405b-a515",
+                            "required": false
+                        }
+                    },
+                    "id": "6bb8-40ff-9128",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".cat-1-9987 > div:nth-child(9) > .product-intro > .itemInfo-wrap > .sku-name",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" cat-1-9987 \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" product-intro \")]/*[contains(concat(\" \", @class, \" \"), \" itemInfo-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" sku-name \")]"
+                },
+                {
+                    "accept_selectors": [
+                        "span.J-p-100011336110"
+                    ],
+                    "container_id": "6c6e-4699-a7b9",
+                    "data": {
+                        "996f-43a6-9474": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "68de-4a04-8181",
+                            "required": false
+                        }
+                    },
+                    "id": "a48a-4e56-abc7",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".cat-1-9987 > div:nth-child(9) > .product-intro > .itemInfo-wrap > .summary-first > .summary-price-wrap > .summary-price > .dd > .p-price > .price",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" cat-1-9987 \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" product-intro \")]/*[contains(concat(\" \", @class, \" \"), \" itemInfo-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" summary-first \")]/*[contains(concat(\" \", @class, \" \"), \" summary-price-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" summary-price \")]/*[contains(concat(\" \", @class, \" \"), \" dd \")]/*[contains(concat(\" \", @class, \" \"), \" p-price \")]/*[contains(concat(\" \", @class, \" \"), \" price \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".M15820137027619"
+                    ],
+                    "container_id": "6c6e-4699-a7b9",
+                    "data": {
+                        "5755-44a1-b42c": {
+                            "attribute": "data-id",
+                            "extractors": {},
+                            "field": "1e4d-4391-878a",
+                            "required": false
+                        }
+                    },
+                    "id": "745c-4849-88f6",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".cat-1-9987 > div:nth-child(13) > .detail > .ETab > .tab-con > div:nth-child(1) > .detail-content > .detail-content-wrap > .detail-content-item > div:nth-child(2) > .ssd-module-wrap > .M15820137027619",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" cat-1-9987 \")]/div[13]/*[contains(concat(\" \", @class, \" \"), \" detail \")]/*[contains(concat(\" \", @class, \" \"), \" ETab \")]/*[contains(concat(\" \", @class, \" \"), \" tab-con \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" detail-content \")]/*[contains(concat(\" \", @class, \" \"), \" detail-content-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" detail-content-item \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ssd-module-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" M15820137027619 \")]"
+                },
+                {
+                    "accept_selectors": [
+                        "#spec-img"
+                    ],
+                    "container_id": "6c6e-4699-a7b9",
+                    "data": {
+                        "de88-45e1-bff3": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "5454-4626-a4da",
+                            "required": false
+                        }
+                    },
+                    "id": "0c09-453d-a379",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".cat-1-9987 > div:nth-child(9) > .product-intro > .preview-wrap > .preview > .jqzoom > img",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" cat-1-9987 \")]/div[9]/*[contains(concat(\" \", @class, \" \"), \" product-intro \")]/*[contains(concat(\" \", @class, \" \"), \" preview-wrap \")]/*[contains(concat(\" \", @class, \" \"), \" preview \")]/*[contains(concat(\" \", @class, \" \"), \" jqzoom \")]/img"
+                }
+            ]
+        }
+    },
+    "scrapes": "edc3-4a70-8938",
+    "spider": "www.jd.com",
+    "url": "https://item.jd.com/100011336110.html",
+    "version": "0.13.3"
+}
